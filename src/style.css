@@ -1,0 +1,36 @@
+#game {
+  padding: 2rem;
+  display: flex;
+  margin-left: 10px;
+}
+
+body {
+  display: flex;
+  background-color: #f0eae3;
+}
+
+.controls,
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+}
+
+.controls button {
+  user-select: none;
+}
+
+.next-tetromino,
+.in-hold {
+  width: 125px;
+  min-height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
